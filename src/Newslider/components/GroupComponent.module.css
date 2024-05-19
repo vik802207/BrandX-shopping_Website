@@ -1,0 +1,132 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 356px;
+  border-radius: 50%;
+  width: 109px;
+  height: 109px;
+  object-fit: cover;
+  z-index: 1;
+}
+.frameItem {
+  width: 815px;
+  height: 291px;
+  position: relative;
+  background-color: var(--color-lightpink-100);
+  display: none;
+  max-width: 100%;
+}
+.iAmGrateful,
+.iNeverExpected {
+  margin-block-start: 0;
+  margin-block-end: 8.44px;
+}
+.beAGreat {
+  margin: 0;
+}
+.iAmGratefulContainer,
+.sahilKumar {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 130.21%;
+  display: inline-block;
+  z-index: 1;
+}
+.iAmGratefulContainer {
+  width: 541px;
+  max-width: 100%;
+}
+.sahilKumar {
+  min-width: 96px;
+  white-space: nowrap;
+}
+.frameInner {
+  height: 18px;
+  width: 81px;
+  position: relative;
+  background-color: var(--color-lightcoral);
+  flex-shrink: 0;
+  display: none;
+}
+.ellipseDiv,
+.frameChild1,
+.frameChild2,
+.frameChild3 {
+  height: 9px;
+  width: 9px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-springgreen);
+  flex-shrink: 0;
+  z-index: 2;
+}
+.frameChild1,
+.frameChild2,
+.frameChild3 {
+  background-color: var(--color-gainsboro-100);
+}
+.frameChild2,
+.frameChild3 {
+  background-color: var(--color-gainsboro);
+}
+.rectangleGroup {
+  background-color: var(--color-lightcoral);
+  overflow-x: auto;
+  flex-direction: row;
+  padding: var(--padding-8xs) var(--padding-7xs) var(--padding-9xs);
+  gap: var(--gap-2xs);
+  z-index: 1;
+}
+.frameContainer,
+.rectangleGroup,
+.sahilKumarParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  flex-direction: row;
+  padding: 0 var(--padding-4xs) 0 var(--padding-7xs);
+}
+.sahilKumarParent {
+  flex-direction: column;
+  gap: var(--gap-3xl);
+}
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameWrapper {
+  width: 541px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-6xs) 0 0;
+  color: var(--color-black);
+}
+.rectangleParent {
+  position: absolute;
+  top: 54px;
+  left: 0;
+  background-color: var(--color-lightpink-100);
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-63xl) var(--padding-xl) var(--padding-22xl)
+    var(--padding-9xl);
+  gap: var(--gap-8xl);
+}
+.ellipseParent {
+  height: 345px;
+  width: 815px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  font-family: var(--font-inika);
+}

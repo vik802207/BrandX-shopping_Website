@@ -1,0 +1,120 @@
+.macbookPro161Child,
+.macbookPro161Item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1728px;
+  height: 1117px;
+}
+.macbookPro161Item {
+  top: 206px;
+  background-color: rgba(28, 148, 134, 0.79);
+  backdrop-filter: blur(400px);
+  width: 1622px;
+  height: 635px;
+}
+.aMinimumDiscount {
+  position: absolute;
+  top: 739px;
+  left: 206px;
+}
+.brandwalaIsDealing {
+  position: absolute;
+  top: 739px;
+  left: calc(50% - 189px);
+}
+.anLargeRange {
+  position: absolute;
+  top: 739px;
+  right: 148px;
+}
+.macbookPro161Inner {
+  position: absolute;
+  top: 298px;
+  left: calc(50% - 24px);
+  border-radius: 5px;
+  background-color: #6dff28;
+  width: 83px;
+  height: 7px;
+}
+.whyBrandwala {
+  position: absolute;
+  top: 324px;
+  left: calc(50% - 140px);
+  font-size: 40.7px;
+  font-weight: 800;
+  color: #fcbfbf;
+}
+.ellipseDiv {
+  left: 249px;
+  border: 2px dashed var(--color-plum);
+}
+.ellipseDiv,
+.macbookPro161Child1,
+.macbookPro161Child2 {
+  position: absolute;
+  top: 459px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+}
+.macbookPro161Child1 {
+  right: 198px;
+  border: 2px dashed var(--color-plum);
+}
+.macbookPro161Child2 {
+  left: calc(50% - 100px);
+  border: 2px dashed var(--color-white);
+}
+.vectorIcon {
+  position: absolute;
+  top: calc(50% - 49.5px);
+  left: 319px;
+  width: 60px;
+  height: 100px;
+}
+.vectorIcon1 {
+  position: absolute;
+  top: calc(50% - 35.5px);
+  left: calc(50% - 41px);
+  width: 82.8px;
+  height: 71px;
+}
+.groupIcon {
+  position: absolute;
+  top: calc(50% - 48.5px);
+  right: 249px;
+  width: 98px;
+  height: 98px;
+}
+.discount {
+  left: 276px;
+}
+.discount,
+.genuineBrands,
+.variedOptions {
+  position: absolute;
+  top: 685px;
+  font-size: var(--font-size-13xl-5);
+  font-weight: 800;
+  color: var(--color-white);
+}
+.genuineBrands {
+  left: calc(50% - 132px);
+}
+.variedOptions {
+  right: 165px;
+}
+.macbookPro161 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1117px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini-2);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

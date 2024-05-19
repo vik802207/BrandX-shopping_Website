@@ -1,0 +1,206 @@
+.groupChild {
+ 
+  background-color: rgba(193, 12, 243, 0.79);
+  backdrop-filter: blur(400px);
+  height: 635px;
+}
+.aMinimumDiscount {
+  position: absolute;
+  top: 533px;
+  left: 206px;
+}
+.brandwalaIsDealing {
+  position: absolute;
+  top: 533px;
+  left: calc(50% - 188.5px);
+}
+.anLargeRange {
+  position: absolute;
+  top: 533px;
+  right: 148px;
+}
+.groupItem {
+  position: absolute;
+  top: 92px;
+  left: calc(50% - 23.5px);
+  border-radius: 5px;
+  background-color: var(--color-pink);
+  width: 83px;
+  height: 7px;
+}
+.whyBrandwala {
+  position: absolute;
+  top: 118px;
+  left: calc(50% - 139.5px);
+  font-size: 40.7px;
+  font-weight: 800;
+  color: var(--color-pink);
+}
+.groupInner {
+  top: 253px;
+  left: 249px;
+  border: 2px dashed var(--color-plum);
+}
+.ellipseDiv,
+.groupChild1,
+.groupInner {
+  position: absolute;
+  border-radius: 50%;
+  background-color:rgba(193, 12, 243, 0.79);
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+}
+.ellipseDiv {
+  top: 253px;
+  right: 198px;
+  border: 2px dashed var(--color-plum);
+}
+.groupChild1 {
+  top: 253px;
+  left: calc(50% - 99.5px);
+  border: 2px dashed var(--color-white);
+}
+.discount {
+  left: 276px;
+}
+.discount,
+.genuineBrands,
+.variedOptions {
+  position: absolute;
+  top: 479px;
+  font-size: var(--font-size-13xl-5);
+  font-weight: 800;
+  color: var(--color-white);
+}
+.genuineBrands {
+  left: calc(50% - 131.5px);
+}
+.variedOptions {
+  right: 165px;
+}
+.dropboxIcon {
+  top: 304px;
+  right: 249px;
+  width: 98px;
+  height: 98px;
+}
+.dollarIcon,
+.dropboxIcon,
+.thumbIcon {
+  position: absolute;
+  overflow: hidden;
+}
+.dollarIcon {
+  top: 303px;
+  left: 319px;
+  width: 60px;
+  height: 100px;
+}
+.thumbIcon {
+  top: 309px;
+  left: calc(50% - 40.5px);
+  width: 100px;
+  height: 85.5px;
+}
+.lineDiv {
+  position: absolute;
+  top: 712.5px;
+  left:calc(50% - 500.5px);;
+  border-top: 1px solid rgba(0, 0, 0, 0.63);
+  box-sizing: border-box;
+  width: 985px;
+  justify-content: center;
+  height: 1px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 740px;
+  left: calc(50% - 32.5px);
+  border-radius: 4.5px;
+  background-color: #6dff28;
+  width: 98px;
+  height: 5px;
+}
+.ourStrongNetwork {
+  position: absolute;
+  top: 760px;
+  left: calc(50% - 143.5px);
+  font-size: var(--font-size-13xl-5);
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.8);
+}
+.cogwheel35245381Icon,
+.solarSystem89668571Icon {
+  position: absolute;
+  
+  right: 680px;
+  width: 81px;
+  height: 81px;
+  object-fit: cover;
+}
+.solarSystem89668571Icon {
+  top: 0;
+  right: 1423px;
+}
+.throughWhichOur {
+  margin: 0;
+}
+.weHave300Container {
+  position: absolute;
+  top: 15px;
+  right: 1198px;
+}
+.luxury150258081Icon {
+  position: absolute;
+  top: 0;
+  right: 1068px;
+  width: 81px;
+  height: 81px;
+  object-fit: cover;
+}
+.tieUpsWithMajorContainer {
+  position: absolute;
+  top: 24px;
+  right: 840px;
+}
+.saturn1Icon,
+.strongPresenceInContainer {
+  position: absolute;
+  top: 15px;
+  right: 425px;
+}
+.saturn1Icon {
+  top: 0;
+  right: 256px;
+  width: 81px;
+  height: 81px;
+  object-fit: cover;
+}
+.linkedWithMajorContainer {
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+.solarSystem89668571Parent {
+  position: absolute;
+  top: 863px;
+  left: calc(50% - 720.5px);
+  width: 1504px;
+  height: 81px;
+  font-family: var(--font-itim);
+}
+.rectangleParent {
+}
+.macbookPro161 {
+  width: 100%;
+  zoom: 0.6;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1007px;
+  overflow: hidden;
+  font-size: var(--font-size-mini-2);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+  z-index: -1;
+}

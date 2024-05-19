@@ -1,0 +1,44 @@
+.macbookPro164Child {
+  position: absolute;
+  top: calc(50% - 233.5px);
+  left: calc(50% - 490.5px);
+  background-color: var(--color-gainsboro);
+  backdrop-filter: blur(292.88px);
+  width: 981.1px;
+  height: 233.6px;
+  display: none;
+  mix-blend-mode: linear-burn;
+}
+.businessFoeEvery,
+.personIsOur {
+  margin: 0;
+}
+.businessFoeEveryContainer {
+  position: absolute;
+  top: calc(50% - 213.7px);
+  left: calc(50% - 472.9px);
+  background: linear-gradient(87.42deg, #3904ce, #17151c 92.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  backdrop-filter: blur(1182.55px);
+}
+.macbookPro164 {
+  width: 100%;
+  position: relative;
+  zoom: 0.5;
+  height: 1117px;
+  overflow: hidden;
+  background-image: url(/public/macbook-pro-16--4@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-70xl);
+  font-family: var(--font-julius-sans-one);
+  z-index: -1;
+}
+@media screen and (max-width:450px)  {
+  .macbookPro164{
+    zoom: 0.3;
+  }
+}

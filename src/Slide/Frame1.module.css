@@ -1,0 +1,195 @@
+.brandwala {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 80px;
+}
+.brandwalaWrapper {
+  width: 223px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 72px var(--padding-3xs) var(--padding-3xs);
+  box-sizing: border-box;
+  min-width: 150px;
+  text-align: center;
+  color: var(--color-white);
+  font-family: var(--font-imperial-script);
+}
+.brandsInEvery {
+  flex: 1;
+  position: relative;
+}
+.brandsInEveryPocketWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 93px var(--padding-3xs) 1px;
+  box-sizing: border-box;
+  min-width: 150px;
+  font-size: 10.4px;
+}
+.locationIcon {
+  width: 18.5px;
+  position: relative;
+  height: 18.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.s12AzadNagar {
+  margin: 0;
+}
+.locationParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  min-width: 150px;
+  font-size: 9.9px;
+}
+.callIcon {
+  width: 17.6px;
+  position: relative;
+  height: 19.1px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.callParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  min-width: 150px;
+  font-size: 10.7px;
+}
+.telegramIcon {
+  width: 19.3px;
+  position: relative;
+  height: 19.3px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.brandwalaindiaofficialgmailc {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  height: 26.2px;
+}
+.frameDiv,
+.telegramParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 150px;
+}
+.telegramParent {
+  gap: 11px;
+  font-size: 10.9px;
+}
+.frameDiv {
+  flex-wrap: wrap;
+  gap: 9px;
+}
+.quickLinks {
+  width: 56px;
+  position: relative;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--color-white);
+  display: inline-block;
+}
+.frameChild {
+  width: 34px;
+  border-radius: var(--br-8xs);
+  background-color: #00fc65;
+  height: 2px;
+}
+.frameChild,
+.home,
+.privacyPolicy {
+  position: relative;
+  cursor: pointer;
+  
+}
+.privacyPolicy {
+  text-align: center;
+}
+.frameContainer,
+.quickLinksParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.quickLinksParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 44px;
+  box-sizing: border-box;
+  gap: 14px;
+  min-width: 80px;
+  font-size: var(--font-size-xs-5);
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 14px;
+  gap: 16px;
+}
+.frameItem {
+  align-self: stretch;
+  position: relative;
+  border-top: 1.2px solid rgba(255, 255, 255, 0.65);
+  box-sizing: border-box;
+  height: 1.2px;
+}
+.copyright2022BrandwalaAlWrapper,
+.frameGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyright2022BrandwalaAlWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 51px;
+  text-align: center;
+  font-size: 9.6px;
+}
+.frameGroup {
+  position: absolute;
+  width: calc(100% - 120.9px);
+  top: 17px;
+  right: 83.3px;
+  left: 37.6px;
+  flex-direction: column;
+  gap: 30px;
+}
+.frameParent {
+  width: 100%;
+  position: relative;
+  background-color: rgba(35, 34, 34, 0.96);
+  height: 500px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 31.3px;
+  color: var(--color-gray-1001);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 406px) {
+  .frameParent{
+    height: 615px;
+    
+  }
+  
+}

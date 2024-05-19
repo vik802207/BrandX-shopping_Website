@@ -1,0 +1,148 @@
+.natureAndSkills {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 338px;
+}
+.natureAndSkillsOfBrandwalaWrapper {
+  position: absolute;
+  width: 35.12%;
+  top: 89.4px;
+  right: 32.47%;
+  left: 32.41%;
+  height: 49.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  font-size: 39.5px;
+}
+.aCompanyHaving {
+  margin: 0;
+}
+.aCompanyHavingContainer {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 350px;
+}
+.aCompanyHavingRequiredSkilWrapper {
+  position: absolute;
+  width: 50.28%;
+  top: 215px;
+  right: 27.33%;
+  left: 22.39%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  color: var(--color-dimgray);
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 188px;
+  height: 188px;
+}
+.accountingFinance {
+  position: absolute;
+  top: 226px;
+  left: 0;
+}
+.groupContainer {
+  width: 208px;
+  position: relative;
+  height: 250px;
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 188px;
+  height: 188px;
+}
+.branding {
+  position: absolute;
+  top: 224px;
+  left: 51px;
+}
+.groupDiv {
+  width: 188px;
+  position: relative;
+  height: 248px;
+}
+.staffRecruitment {
+  position: absolute;
+  top: 224px;
+  left: 9px;
+}
+.customerRetention {
+  position: absolute;
+  top: 227px;
+  left: 16px;
+}
+.groupParent2 {
+  width: 208px;
+  position: relative;
+  height: 251px;
+}
+.groupParent,
+.salesMarketing {
+  position: absolute;
+  top: 224px;
+  left: 8px;
+}
+.groupParent {
+  width: calc(100% - 140px);
+  top: 308px;
+  right: 75px;
+  left: 65px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 48px 80px;
+  text-align: center;
+  color: var(--color-gray-100);
+}
+.macbookPro161 {
+  width: 100%;
+  position: relative;
+  background-color: #43bb73;
+  height: 720px;
+  zoom: 0.7;
+  text-align: center;
+  font-size: var(--font-size-lgi-5);
+  color: #290e0e;
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1008px) {
+  .macbookPro161 {
+    height: 1000px;
+  }
+  
+}
+@media screen and (max-width: 624px) {
+  .macbookPro161 {
+    height: 1200px;
+  }
+  
+}
+@media screen and (max-width: 422px) {
+  .macbookPro161 {
+    height: 1500px;
+  }
+  
+}
+@media screen and (max-width: 416px) {
+  .macbookPro161 {
+    height: 1800px;
+  }
+  
+}

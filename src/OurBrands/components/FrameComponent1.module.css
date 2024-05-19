@@ -1,0 +1,71 @@
+.frameChild,
+.frameChild1,
+.frameChild2,
+.frameInner,
+.frameItem,
+.rectangleIcon {
+  align-self: stretch;
+  width: 298.5px;
+  position: relative;
+  max-height: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 176px;
+}
+.rectangleParent {
+  flex: 1;
+  overflow-x: auto;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-358xl);
+  max-width: 100%;
+}
+.contentBoxes,
+.contentBoxesInner,
+.frameWrapper,
+.rectangleParent {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+.frameWrapper {
+  margin-left: -21px;
+  width: 1834px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  debug_commit: f6aba90;
+}
+.contentBoxes,
+.contentBoxesInner {
+  max-width: 100%;
+}
+.contentBoxesInner {
+  width: 867px;
+  flex-shrink: 0;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Hide vertical scrollbar */
+}
+.contentBoxesInner::-webkit-scrollbar {
+  width: 100vh; /* Set the width of the scrollbar */
+  cursor: -webkit-grab;
+}
+.contentBoxes {
+  padding: 0 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1200px) {
+  .rectangleParent {
+    gap: var(--gap-169xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    gap: var(--gap-75xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    gap: var(--gap-28xl);
+  }
+}

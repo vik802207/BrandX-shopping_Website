@@ -1,0 +1,126 @@
+.macbookPro161Child,
+.macbookPro161Item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1728px;
+  height: 1117px;
+}
+.macbookPro161Item {
+  top: 206px;
+  background-color: rgba(28, 148, 134, 0.79);
+  backdrop-filter: blur(400px);
+  width: 1431px;
+  height: 635px;
+}
+.aMinimumDiscount {
+  position: absolute;
+  top: 739px;
+  left: 206px;
+}
+.brandwalaIsDealing {
+  position: absolute;
+  top: 739px;
+  left: calc(50% - 188.5px);
+}
+.anLargeRange {
+  position: absolute;
+  top: 739px;
+  right: 148px;
+}
+.macbookPro161Inner {
+  position: absolute;
+  top: 298px;
+  left: calc(50% - 23.5px);
+  border-radius: 5px;
+  background-color: #6dff28;
+  width: 83px;
+  height: 7px;
+}
+.whyBrandwala {
+  position: absolute;
+  top: 324px;
+  left: calc(50% - 139.5px);
+  font-size: 40.7px;
+  font-weight: 800;
+  color: #fcbfbf;
+}
+.ellipseDiv {
+  top: 459px;
+  left: 249px;
+  border: 2px dashed var(--color-plum);
+}
+.ellipseDiv,
+.macbookPro161Child1,
+.macbookPro161Child2 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+}
+.macbookPro161Child1 {
+  top: 459px;
+  right: 198px;
+  border: 2px dashed var(--color-plum);
+}
+.macbookPro161Child2 {
+  top: calc(50% - 100.5px);
+  left: calc(50% - 99.5px);
+  border: 2px dashed var(--color-white);
+}
+.discount {
+  left: 276px;
+}
+.discount,
+.genuineBrands,
+.variedOptions {
+  position: absolute;
+  top: 685px;
+  font-size: var(--font-size-13xl-5);
+  font-weight: 800;
+  color: var(--color-white);
+}
+.genuineBrands {
+  left: calc(50% - 131.5px);
+}
+.variedOptions {
+  right: 165px;
+}
+.dropboxIcon {
+  top: 510px;
+  right: 249px;
+  width: 98px;
+  height: 98px;
+}
+.dollarIcon,
+.dropboxIcon,
+.thumbIcon {
+  position: absolute;
+  overflow: hidden;
+}
+.dollarIcon {
+  top: 509px;
+  left: 319px;
+  width: 60px;
+  height: 100px;
+}
+.thumbIcon {
+  top: 515px;
+  left: calc(50% - 40.5px);
+  width: 100px;
+  height: 85.5px;
+}
+.macbookPro161 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1117px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini-2);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+  z-index: -1;
+}

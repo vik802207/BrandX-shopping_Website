@@ -1,0 +1,38 @@
+.fRAMEChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1728px;
+    height: 747px;
+    object-fit: cover;
+  }
+  .leftArrowBackup2SvgrepocoIcon,
+  .rightArrowBackup2SvgrepocIcon {
+    position: absolute;
+    top: 344px;
+    left: 1577px;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .leftArrowBackup2SvgrepocoIcon {
+    left: 91px;
+  }
+  .fRAME {
+    height: 747px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .macbookPro162 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }

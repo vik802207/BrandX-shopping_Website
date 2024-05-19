@@ -1,0 +1,34 @@
+.frameChild {
+  width: 200px;
+  position: relative;
+  height: 200px;
+}
+.aMinimumDiscount,
+.discount {
+  position: relative;
+  display: inline-block;
+}
+.discount {
+  width: 146px;
+  font-weight: 800;
+  text-align: center;
+}
+.aMinimumDiscount {
+  align-self: stretch;
+  font-size: var(--font-size-mini-2);
+  color: var(--color-black);
+  text-align: center;
+  min-width: 200px;
+}
+.groupParent {
+  width: 267.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-13xl-5);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

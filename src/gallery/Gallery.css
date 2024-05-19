@@ -1,0 +1,69 @@
+.track {
+    background-color: red;
+    width: 100vw;
+    height: 400vw;
+  }
+  
+  .div-block-4 {
+    width: 100vw;
+    height: 100vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  
+  .camera {
+    width: 100vw;
+    height: 100vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+  }
+  
+  .frame {
+    flex-flow: row;
+    justify-content: center;
+    width: 400vw;
+    height: 100%;
+    display: flex;
+  }
+  
+  .item {
+    background-color: #5e5a5a;
+    flex: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+  }
+  
+  .image-11 {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image-12 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .image-13, .image-14, .image-15 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    .image-12,.image-13, .image-14, .image-15{
+      object-fit: fill;
+      width: 100%;
+      height: 40%;
+      position: relative;
+      justify-self: center;
+      align-self: center;
+    }
+    
+  }
+  

@@ -1,0 +1,227 @@
+.frameChild {
+  width: 985px;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameItem {
+  height: 5px;
+  width: 98px;
+  position: relative;
+  border-radius: var(--br-8xs-5);
+  background-color: var(--color-lawngreen);
+}
+.lineParent,
+.rectangleWrapper {
+  display: flex;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleWrapper {
+  width: 984px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.lineParent {
+  align-self: stretch;
+  height: 32px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.ourStrongNetwork {
+  position: relative;
+  font-weight: 800;
+}
+.ourStrongNetworkWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.solarSystem89668571Icon {
+  height: 81px;
+  width: 81px;
+  position: relative;
+  object-fit: cover;
+}
+.isProcured,
+.throughWhichOur,
+.weHave300 {
+  margin: 0;
+}
+.weHave300Container {
+  position: relative;
+}
+.solarSystem89668571Parent,
+.weHave300DistributorsThroWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.weHave300DistributorsThroWrapper {
+  flex-direction: column;
+  padding: var(--padding-mini) 0 0;
+}
+.solarSystem89668571Parent {
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 1019.7px;
+  flex-direction: row;
+  gap: var(--gap-9xl);
+}
+.luxury150258081Icon {
+  height: 81px;
+  width: 81px;
+  position: relative;
+  object-fit: cover;
+}
+.andBrandManufacturers,
+.tieUpsWithMajor {
+  margin: 0;
+}
+.tieUpsWithMajorContainer {
+  position: relative;
+}
+.luxury150258081Parent,
+.tieUpsWithMajorBrandsAndWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tieUpsWithMajorBrandsAndWrapper {
+  flex-direction: column;
+  padding: var(--padding-5xl) 0 0;
+}
+.luxury150258081Parent {
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 599.7px;
+  flex-direction: row;
+  gap: var(--gap-9xl);
+}
+.vectorIcon {
+  height: 81px;
+  width: 81px;
+  position: relative;
+}
+.brandStockistAnd,
+.stockist,
+.strongPresenceIn {
+  margin: 0;
+}
+.strongPresenceInContainer {
+  height: 51px;
+  position: relative;
+  display: inline-block;
+}
+.strongPresenceInMarketAsBWrapper,
+.vectorParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.strongPresenceInMarketAsBWrapper {
+  flex-direction: column;
+  padding: var(--padding-lgi) 0 0;
+}
+.vectorParent {
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 177.2px;
+  flex-direction: row;
+  gap: var(--gap-xs-5);
+}
+.saturn1Icon {
+  height: 81px;
+  width: 81px;
+  position: relative;
+  object-fit: cover;
+}
+.companiesWhoLiquidate,
+.linkedWithMajor,
+.stockInMarket {
+  margin: 0;
+}
+.linkedWithMajorContainer {
+  height: 51px;
+  position: relative;
+  display: inline-block;
+}
+.linkedWithMajorECommerceCWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+}
+.frameGroup,
+.saturn1Parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.saturn1Parent {
+  margin: 0 !important;
+  position: absolute;
+  top: 111px;
+  right: 583px;
+  align-items: flex-start;
+  gap: var(--gap-8xl);
+}
+.frameGroup {
+  align-self: stretch;
+  height: 192px;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  gap: 30px 111px;
+  font-size: var(--font-size-mini-2);
+  color: var(--color-black);
+  font-family: var(--font-itim);
+}
+.frameParent {
+  width: 1503px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-32xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl-5);
+  color: var(--color-gray-600);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .ourStrongNetwork {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: var(--gap-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourStrongNetwork {
+    font-size: var(--font-size-lgi);
+  }
+  .saturn1Parent {
+    flex-wrap: wrap;
+  }
+  .frameGroup {
+    height: auto;
+    min-height: 192;
+  }
+}

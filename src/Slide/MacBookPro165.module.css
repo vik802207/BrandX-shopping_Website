@@ -1,0 +1,33 @@
+.macbookPro162Child {
+  position: absolute;
+  top: 192px;
+  left: 0;
+  width: 100vw;
+  height: 747px;
+  object-fit: cover;
+}
+.leftArrowBackup2SvgrepocoIcon,
+.rightArrowBackup2SvgrepocIcon {
+  position: absolute;
+  top: 536px;
+  left: 1577px;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.leftArrowBackup2SvgrepocoIcon {
+  left: 91px;
+}
+.rightArrowBackup2SvgrepocIcon{
+  right: 91px;
+}
+.macbookPro162 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1117px;
+  overflow: hidden;
+  z-index: -1;
+}
+

@@ -1,0 +1,142 @@
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.rectangleWrapper {
+  width: 328px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.frameItem,
+.rectangleContainer,
+.rectangleWrapper {
+  align-self: stretch;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.frameItem {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  debug_commit: f6aba90;
+}
+.rectangleContainer {
+  width: 328px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.frameInner {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  debug_commit: f6aba90;
+}
+.frameInner,
+.rectangleFrame,
+.rectangleIcon {
+  align-self: stretch;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.rectangleFrame {
+  width: 328px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.rectangleIcon {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  debug_commit: f6aba90;
+}
+.frameDiv {
+  width: 328px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.frameChild1,
+.frameDiv,
+.rectangleWrapper1 {
+  align-self: stretch;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.frameChild1 {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  debug_commit: f6aba90;
+}
+.rectangleWrapper1 {
+  width: 335px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.frameChild2,
+.frameChild3,
+.frameChild4,
+.frameChild5,
+.frameChild6 {
+  align-self: stretch;
+  width: 328px;
+  position: relative;
+  max-height: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 217px;
+  debug_commit: f6aba90;
+}
+.frameChild6 {
+  object-fit: contain;
+}
+.frameParent::-webkit-scrollbar{
+  width: 1px;
+}
+.frameParent {
+  width: 1683px;
+  height: 219px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  cursor: grab;
+}

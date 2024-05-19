@@ -1,0 +1,194 @@
+.whyBrandwala {
+  position: absolute;
+  top: 118px;
+  left: calc(50% - 157px);
+  font-weight: 800;
+  display: inline-block;
+  text-align: center;
+  width: 315px;
+}
+.branChild {
+  position: absolute;
+  top: 91px;
+  left: calc(50% - 42px);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-pink);
+  width: 83px;
+  height: 7px;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 47px 256px;
+}
+.frameChild {
+  width: 985px;
+  position: relative;
+  border-top: 1px solid rgba(0, 0, 0, 0.73);
+  box-sizing: border-box;
+  height: 1px;
+}
+.frameItem {
+  width: 98px;
+  position: relative;
+  border-radius: 4.5px;
+  background-color: #6dff28;
+  height: 5px;
+}
+.frameGroup,
+.lineParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 27px;
+}
+.frameGroup {
+  gap: 35px;
+}
+.ourStrongNetwork {
+  position: relative;
+  font-weight: 800;
+  text-align: center;
+}
+.solarSystem89668571Icon {
+  position: absolute;
+  top: 0;
+  right: 225px;
+  width: 81px;
+  height: 81px;
+  object-fit: cover;
+}
+.throughWhichOur {
+  margin: 0;
+}
+.weHave300Container {
+  position: absolute;
+  top: 15px;
+  right: 0;
+  display: inline-block;
+  width: 197px;
+}
+.solarSystem89668571Parent {
+  width: 306px;
+  position: relative;
+  height: 81px;
+}
+.luxury150258081Icon {
+  position: absolute;
+  top: 0;
+  right: 228px;
+  width: 81px;
+  height: 81px;
+  object-fit: cover;
+}
+.tieUpsWithMajorContainer {
+  position: absolute;
+  top: 24px;
+  right: 0;
+  display: inline-block;
+  width: 200px;
+}
+.luxury150258081Parent {
+  width: 309px;
+  position: relative;
+  height: 81px;
+}
+.strongPresenceInContainer {
+  position: absolute;
+  top: 19px;
+  right: 0;
+  display: inline-block;
+  width: 218px;
+}
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 81px;
+  height: 81px;
+}
+.strongPresenceInMarketAsBParent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 311.5px;
+  height: 81px;
+}
+.groupWrapper {
+  width: 311.5px;
+  position: relative;
+  height: 81px;
+}
+.saturn1Icon {
+  position: absolute;
+  top: 0;
+  right: 256px;
+  width: 81px;
+  height: 81px;
+  object-fit: cover;
+}
+.linkedWithMajorContainer {
+  position: absolute;
+  top: 15px;
+  right: 0;
+  display: inline-block;
+  width: 228px;
+}
+.saturn1Parent {
+  width: 337px;
+  position: relative;
+  height: 81px;
+}
+.groupParent {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px 111px;
+}
+.frameWrapper {
+  align-self: stretch;
+  position: relative;
+  height: 414px;
+  font-size: var(--font-size-mini-2);
+  color: var(--color-black);
+  font-family: var(--font-itim);
+}
+.frameParent {
+  position: absolute;
+  width: calc(100% - 225px);
+  top: 220px;
+  right: 113px;
+  left: 112px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 51px;
+  font-size: var(--font-size-13xl-5);
+  color: var(--color-gray-600);
+}
+.bran {
+  width: 100%;
+  zoom: 0.6;
+  position: relative;
+  background-color: #32a27a;
+  height: 1201px;
+  overflow: scroll;
+  text-align: left;
+  font-size: 40.7px;
+  color: var(--color-pink);
+  font-family: var(--font-inter);
+}

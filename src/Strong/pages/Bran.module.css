@@ -1,0 +1,32 @@
+.bran {
+  zoom: 1.2;
+  width: 100%;
+  position: relative;
+  background-color: #32a27a;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 91px var(--padding-xl) 39px;
+  box-sizing: border-box;
+  gap: 172px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .bran {
+    gap: 86px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .bran {
+    gap: 43px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bran {
+    height: auto;
+    gap: var(--gap-2xl);
+  }
+}

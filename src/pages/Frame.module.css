@@ -1,0 +1,111 @@
+.mac4Child,
+.mac4Inner,
+.mac4Item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1325px;
+  height: 1117px;
+}
+
+.mac4Item {
+  background-color: #6f4444;
+  height: 20vh;
+}
+.mac4Inner {
+  left: 294px;
+  background-color: #0f0e0e;
+  width: 100vw;
+  height: 20vh;
+}
+.frameDiv {
+  position: absolute;
+  top: 64px;
+  left: 1268px;
+  width: 75px;
+  height: 38px;
+}
+.searchIcon {
+  position: absolute;
+  top: 52px;
+  right: 207px;
+  width: 37px;
+  height: 37px;
+  overflow: hidden;
+}
+.aboutUs,
+.contactUs,
+.gallery,
+.home,
+.needFranchise,
+.ourBrands {
+  position: relative;
+  font-weight: 800;
+}
+.homeParent {
+  position: absolute;
+  top: 63px;
+  right:40px;
+  width: 805px;
+  height: 24.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 34.3px;
+}
+.groupChild,
+.haveProject {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.groupChild {
+  border-radius: 14.64px;
+  background-color: rgba(102, 226, 115, 0.9);
+  width: 105.1px;
+  height: 45.7px;
+}
+.haveProject {
+  font-weight: 800;
+  display: inline-block;
+  width: 91.6px;
+  font-size: 10px;
+  height: 21.3px;
+  color: white;
+}
+.haveProjectWrapper,
+.rectangleParent {
+  position: absolute;
+  top: 17.5px;
+  right: -5px;
+  width: 91.6px;
+  height: 21.3px;
+}
+.rectangleParent {
+  top: 47px;
+  right: 45.9px;
+  width: 135.1px;
+  height: 55.7px;
+  font-size: 14.6px;
+  color: #6f6294;
+}
+.croppedBw311Icon {
+  position: absolute;
+  top: 12px;
+  left: 66px;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.mac4 {
+  cursor: pointer;
+  position: relative;
+  background-color: var(--color-white);
+  height: 15vh;
+  overflow: hidden;
+  text-align: left;
+  font-size: 12px;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
